@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39
+
 def zero(*args)
   if args
     args = args.unshift(0).flatten
@@ -110,9 +112,3 @@ end
 def divided_by(number)
   return ["/", number]
 end
-
-
-p seven(times(five()))# 35
-p four(plus(nine()))# 13
-p eight(minus(three()))# 5
-p six(divided_by(five()))# 3
