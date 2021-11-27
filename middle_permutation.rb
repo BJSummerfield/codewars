@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/search/my-languages?q=&xids=not_completed&beta=false
+
 def middle_permutation(string)
   array = string.chars.sort
   if array.length.even?

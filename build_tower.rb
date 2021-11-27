@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/576757b1df89ecf5bd00073b
+
 def towerBuilder(n_floors)
   tower = []
   n_floors.times do |i|
@@ -7,8 +9,3 @@ def towerBuilder(n_floors)
   end
   return tower
 end
-
-towerBuilder(1)
-towerBuilder(2)
-towerBuilder(3)
-
